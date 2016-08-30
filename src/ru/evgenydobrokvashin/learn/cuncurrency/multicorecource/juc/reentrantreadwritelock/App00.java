@@ -15,7 +15,7 @@ public class App00 {
 		// Java 1 style
 		Map<String, String> map0 = new Hashtable<>();
 		// java.util.concurrent style (Java 5)
-		Map<String, String> map2 = new ConcurrentHashMap<>(16, 0.75f, 4);\
+		Map<String, String> map2 = new ConcurrentHashMap<>(16, 0.75f, 4);
 		// Collection API style (Java 2)
 		Map<String, String> map1 = synchronizedMap(new HashMap<String, String>());
 		// exercise in j.u.c ReadWriteLock

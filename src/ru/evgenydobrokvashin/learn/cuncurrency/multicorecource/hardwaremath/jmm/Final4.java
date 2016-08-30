@@ -10,7 +10,7 @@ public class Final4 {
 	public static void main(String[] args) {
 		new Thread(new Runnable() {
 			@Override
-			public void run() {
+			public void f() {
 				if (x == 1) {
 					y = 1;
 				}
